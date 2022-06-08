@@ -1,0 +1,143 @@
+.shuffle-sort-example {
+  width: 960px;
+  margin: 0 auto;
+  background: #efefef;
+}
+header {
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+  color: #333;
+}
+.buttons {
+  float: right;
+}
+button {
+  width: 174px;
+  position: relative;
+  top: 0px;
+  font-size: 15px;
+  background: #72c3dc;
+  display: block;
+  height: 67px;
+  margin-top: 20px;
+  margin-right: 66px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cards-box {
+  width: 708px;
+  margin-left: 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0px -3px;
+  font-size: 6em;
+  display: inline-block;
+  color: #fff;
+  font-weight: 100;
+  width: 236px;
+  height: 159px;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.li-first,
+.li-eighth {
+  background: #6f98a8;
+}
+.li-second,
+.li-fourth {
+  background: #2b8ead;
+}
+.li-third,
+.li-fifth,
+.li-ninth {
+  background: #2f454e;
+}
+
+.li-sixth,
+.li-seventh {
+  background: #bfbfbf;
+}
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  color: #333;
+  padding: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 959px) {
+  .shuffle-sort-example {
+    width: 100%;
+    position: relative;
+    top: -24px;
+    background: unset;
+  }
+  .cards-box {
+    width: 100%;
+  }
+  button {
+    margin-right: 19px;
+    margin-bottom: 7px;
+  }
+  .buttons {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    height: 60px;
+  }
+  .btn {
+    overflow: visible;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 10px;
+    width: 135px;
+  }
+  ul li {
+    width: 95%;
+    list-style: none;
+    padding: 0.3em;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 3em;
+    text-align: center;
+    width: unset !important;
+    height: unset !important;
+  }
+  li {
+    background: #efefef !important;
+    margin-bottom: 10px;
+  }
+  .li-first,
+  .li-eighth {
+    border-left: 10px solid #6f98a8;
+  }
+  .li-second,
+  .li-fourth {
+    border-left: 10px solid #2b8ead;
+  }
+  .li-third,
+  .li-fifth,
+  .li-ninth {
+    border-left: 10px solid #2f454e;
+  }
+
+  .li-sixth,
+  .li-seventh {
+    border-left: 10px solid #bfbfbf;
+  }
+}
